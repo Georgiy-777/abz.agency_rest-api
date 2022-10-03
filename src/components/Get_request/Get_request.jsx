@@ -80,13 +80,13 @@ const Get_request = () => {
                         </h2>
                         <ul className="getapi__cart-block">
                             {users.map(user =>
-                            <li className="getapi__cart" key={user.id}>*
+                            <li className="getapi__cart" key={user.id}>
                                 {/*<div>{user.photo}</div>*/}
                                 <div>{user.name}</div>
-                                <div>
-                                    <span>{user.position}</span>
-                                    <span>{user.email}</span>
-                                    <span>{user.phone}</span>
+                                <div >
+                                    <div>{user.position}</div>
+                                    <div>{user.email}</div>
+                                    <div>{user.phone}</div>
 
                                 </div>
                             </li>
